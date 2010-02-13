@@ -1,0 +1,13 @@
+<p>
+  <b>Name:</b>
+  <%=h @category.name %>
+</p>
+<ul>
+<% @category.recipes.each do |@recipe| %>
+   <li><%=link_to @recipe.name, @recipe %></li>
+<% end %>
+</ul>
+
+
+<%= link_to 'Edit', edit_category_path(@category) %> |
+<%= link_to 'Back', categories_path %>
