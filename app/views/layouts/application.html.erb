@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Our Cookbook</title>
+    <%=stylesheet_link_tag "style.css" %>
+  </head>
+
+  <body>
+    <h1>Our Cookbook</h1>
+    
+    <%= link_to_unless_current "Home", root_url %>
+    <%= link_to_unless_current "About", about_url %>
+
+    <hr />
+
+    <%=yield %>
+
+    <hr />
+    <h4>Copyright <%=Date.today.year %> Ruby Camp</h4>
+  </body>
+
+</html>
