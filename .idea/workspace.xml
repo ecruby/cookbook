@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="72dbc30b-345d-4043-a614-d2a563558ba8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/recipes/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/recipes/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/recipes/new.html.erb" afterPath="$PROJECT_DIR$/app/views/recipes/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="cookbook.iws" />
@@ -47,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="59" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
+            <state line="21" column="100" selection-start="578" selection-end="578" vertical-scroll-proportion="0.5263158">
               <folding />
             </state>
           </provider>
@@ -74,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/recipes/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="10" selection-start="328" selection-end="328" vertical-scroll-proportion="0.41062802">
+            <state line="27" column="4" selection-start="509" selection-end="509" vertical-scroll-proportion="-7.0">
               <folding />
             </state>
           </provider>
@@ -98,12 +96,12 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/models/category.rb" />
         <option value="$PROJECT_DIR$/app/models/recipe.rb" />
         <option value="$PROJECT_DIR$/app/views/categories/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/recipes/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/recipes/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -616,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="59" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/categories/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="39" selection-start="135" selection-end="135" vertical-scroll-proportion="-6.8">
@@ -639,7 +630,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/recipes/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="10" selection-start="328" selection-end="328" vertical-scroll-proportion="0.41062802">
+        <state line="27" column="4" selection-start="509" selection-end="509" vertical-scroll-proportion="-7.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="100" selection-start="578" selection-end="578" vertical-scroll-proportion="0.5263158">
           <folding />
         </state>
       </provider>
