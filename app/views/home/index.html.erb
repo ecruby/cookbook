@@ -1,2 +1,10 @@
 <h2>Latest Recipes</h2>
-<p>There are 10 recipes total.</p>
+<p>There are <%=@number_of_recipes %> recipes total.</p>
+
+<h3><%=@latest_recipe.name %></h3>
+<div class="ingredients">
+  <%=@latest_recipe.ingredients%>
+</div>
+<div class="instructions">
+  <%=@latest_recipe.instructions %>
+</div>
