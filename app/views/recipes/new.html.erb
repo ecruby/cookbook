@@ -16,6 +16,11 @@
     <%= f.text_area :instructions %>
   </p>
   <p>
+    <%= f.label :category_id %>
+    <%= f.select :category_id, Category.all.collect{|c| [c.name, c.id]} %>
+  </p>  
+
+  <p>
     <%= f.submit 'Create' %>
   </p>
 <% end %>
